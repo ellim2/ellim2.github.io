@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">일일 발행의 배포 증명 경로</title>
+<desc id="desc">글과 이미지가 Docker 빌드, Pages 배포, 공개 HTTP 확인으로 이어지는 가로형 도해</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091831"/><stop offset="1" stop-color="#293862"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020614" flood-opacity=".42"/></filter></defs>
+<rect width="1600" height="900" fill="url(#bg)"/><circle cx="1450" cy="120" r="280" fill="#805d9f" opacity=".25"/><circle cx="110" cy="830" r="280" fill="#16808a" opacity=".2"/>
+<text x="115" y="122" fill="#cbd9ec" font-size="25" font-family="Arial, sans-serif" letter-spacing="5">WORK LOG / PUBLICATION</text><text x="115" y="204" fill="#fff9ef" font-size="57" font-weight="700" font-family="Arial, sans-serif">발행은 공개 경로를 확인한 뒤에 끝난다</text>
+<g filter="url(#shadow)"><rect x="115" y="338" width="300" height="280" rx="27" fill="#f0cb80"/><rect x="650" y="338" width="300" height="280" rx="27" fill="#a9d8cf"/><rect x="1185" y="338" width="300" height="280" rx="27" fill="#ebb7c7"/></g>
+<path d="M435 478h166m-34-31 34 31-34 31M970 478h166m-34-31 34 31-34 31" fill="none" stroke="#f7f1e6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="155" y="414" fill="#1a2a43" font-size="21" font-family="Arial, sans-serif" letter-spacing="3">SOURCE</text><text x="155" y="490" fill="#1a2a43" font-size="41" font-weight="700" font-family="Arial, sans-serif">글 · 이미지</text><text x="155" y="542" fill="#1a2a43" font-size="24" font-family="Arial, sans-serif">안전한 fallback 포함</text>
+<text x="690" y="414" fill="#1a2a43" font-size="21" font-family="Arial, sans-serif" letter-spacing="3">BUILD</text><text x="690" y="490" fill="#1a2a43" font-size="41" font-weight="700" font-family="Arial, sans-serif">Docker Jekyll</text><text x="690" y="542" fill="#1a2a43" font-size="24" font-family="Arial, sans-serif">생성 결과를 확인</text>
+<text x="1225" y="414" fill="#1a2a43" font-size="21" font-family="Arial, sans-serif" letter-spacing="3">PUBLIC CHECK</text><text x="1225" y="490" fill="#1a2a43" font-size="41" font-weight="700" font-family="Arial, sans-serif">Pages · HTTP 200</text><text x="1225" y="542" fill="#1a2a43" font-size="24" font-family="Arial, sans-serif">공개 경로를 확인</text>
+<text x="115" y="784" fill="#d8e3f2" font-size="33" font-family="Arial, sans-serif">생성, 빌드, 배포, 접근은 서로 다른 질문에 답한다.</text>
+</svg>
