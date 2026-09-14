@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">기본값과 선택권의 경계</title>
+  <desc id="desc">기본 경로가 실행으로 이어지고, 근거와 영향 범위, 바꿀 수 있는 선택지가 함께 남는 추상 편집 도해</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071628"/><stop offset="1" stop-color="#102e46"/></linearGradient>
+    <linearGradient id="path" x1="0" x2="1"><stop stop-color="#43d4c4"/><stop offset="1" stop-color="#f0bf65"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#a9c6db" stroke-width="1"><path d="M0 160H1600M0 300H1600M0 440H1600M0 580H1600M0 720H1600"/><path d="M160 0V900M400 0V900M640 0V900M880 0V900M1120 0V900M1360 0V900"/></g>
+  <text x="120" y="140" fill="#d7e7f3" font-family="sans-serif" font-size="31" letter-spacing="5">DEFAULTS NEED A WAY BACK TO CHOICE</text>
+  <text x="120" y="195" fill="#7ea1bb" font-family="sans-serif" font-size="22">기본 경로는 속도를 주지만, 선택을 지우면 안 된다</text>
+  <path d="M190 475 C360 300 510 640 710 465 S1040 305 1380 470" fill="none" stroke="#132c43" stroke-width="50" stroke-linecap="round"/>
+  <path d="M190 475 C360 300 510 640 710 465 S1040 305 1380 470" fill="none" stroke="url(#path)" stroke-width="12" stroke-linecap="round" filter="url(#glow)"/>
+  <g fill="#0d2338" stroke="#8fe4d5" stroke-width="3"><circle cx="190" cy="475" r="40"/><circle cx="710" cy="465" r="40"/><circle cx="1380" cy="470" r="40"/></g>
+  <g font-family="sans-serif"><text x="137" y="555" fill="#d7e7f3" font-size="25">기본 경로</text><text x="644" y="550" fill="#d7e7f3" font-size="25">실행</text><text x="1300" y="550" fill="#d7e7f3" font-size="25">결과</text></g>
+  <g><rect x="270" y="625" width="265" height="98" rx="18" fill="#15354d" stroke="#477994"/><text x="305" y="670" fill="#9cdacf" font-family="sans-serif" font-size="24">근거를 확인한다</text><text x="305" y="703" fill="#aac5d7" font-family="sans-serif" font-size="18">반복된 선호 · 현재 조건</text></g>
+  <g><rect x="665" y="625" width="265" height="98" rx="18" fill="#15354d" stroke="#477994"/><text x="705" y="670" fill="#f2cc7a" font-family="sans-serif" font-size="24">영향을 가늠한다</text><text x="705" y="703" fill="#aac5d7" font-family="sans-serif" font-size="18">공개 · 비용 · 권한</text></g>
+  <g><rect x="1060" y="625" width="300" height="98" rx="18" fill="#15354d" stroke="#477994"/><text x="1090" y="670" fill="#9cdacf" font-family="sans-serif" font-size="24">다시 고를 길을 남긴다</text><text x="1090" y="703" fill="#aac5d7" font-family="sans-serif" font-size="18">조건이 달라지면 재판단</text></g>
+</svg>
