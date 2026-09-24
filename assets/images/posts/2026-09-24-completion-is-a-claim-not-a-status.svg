@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">완료라는 주장을 검증하는 불완전한 관찰 경로</title>
+  <desc id="desc">어두운 편집 화면 위에서 봉인된 작은 상자의 추상 표식이 세 개의 차분한 검증 지점을 지나 열린 관찰 창으로 향한다. 경로의 마지막은 일부러 끊겨 있어 완료가 고정된 상태가 아니라 독립적으로 다시 확인해야 하는 주장임을 나타낸다.</desc>
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="0.55" stop-color="#18232c"/>
+      <stop offset="1" stop-color="#0c131a"/>
+    </linearGradient>
+    <linearGradient id="windowGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dce1d8" stop-opacity="0.18"/>
+      <stop offset="0.52" stop-color="#6f8da2" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#101820" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grain" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="9" r="0.7" fill="#edf0e5" opacity="0.07"/>
+      <circle cx="31" cy="14" r="0.55" fill="#8ca5b7" opacity="0.08"/>
+      <circle cx="17" cy="38" r="0.65" fill="#edf0e5" opacity="0.05"/>
+      <path d="M40 34h2M11 24h1.5" stroke="#edf0e5" stroke-width="0.6" opacity="0.06"/>
+    </pattern>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#8199aa" stroke-width="2" opacity="0.18"/>
+    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#03070a" flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="viewClip">
+      <rect x="1228" y="203" width="244" height="472" rx="3"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#field)"/>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+
+  <!-- Editorial scaffolding -->
+  <path d="M82 102H1518M82 798H1518" stroke="#cfd4cb" stroke-width="1" opacity="0.12"/>
+  <path d="M107 75v54M1493 771v54" stroke="#cfd4cb" stroke-width="1" opacity="0.28"/>
+  <circle cx="1115" cy="438" r="174" fill="#6f8da2" opacity="0.055" filter="url(#soft)"/>
+  <path d="M145 688C435 742 719 708 948 650" fill="none" stroke="#7f99aa" stroke-width="1" opacity="0.1"/>
+
+  <!-- Sealed source object -->
+  <g filter="url(#shadow)">
+    <path d="M154 343l128-58 128 58-128 61z" fill="#24333e" stroke="#96a9b5" stroke-width="2"/>
+    <path d="M154 343v163l128 68V404z" fill="#17242d" stroke="#718b9e" stroke-width="2"/>
+    <path d="M410 343v163l-128 68V404z" fill="#1d2b35" stroke="#718b9e" stroke-width="2"/>
+    <path d="M282 285v119" stroke="#c9cec5" stroke-width="2" opacity="0.5"/>
+    <path d="M230 319l104 49" stroke="#d29a58" stroke-width="5" opacity="0.9"/>
+    <circle cx="282" cy="344" r="17" fill="#131d24" stroke="#d29a58" stroke-width="3"/>
+    <circle cx="282" cy="344" r="5" fill="#d29a58"/>
+    <g stroke="#d7dbd2" stroke-width="4" stroke-linecap="round" opacity="0.72">
+      <path d="M203 421h40"/>
+      <path d="M203 438h57"/>
+      <path d="M203 455h30"/>
+    </g>
+  </g>
+
+  <!-- Precise but incomplete inspection route -->
+  <path d="M410 421H480c21 0 31 13 31 32v29c0 21 12 31 32 31h72"
+        fill="none" stroke="#809caf" stroke-width="2"/>
+  <path d="M663 513H770c22 0 34-12 34-34v-75c0-22 12-34 34-34h76"
+        fill="none" stroke="#809caf" stroke-width="2" stroke-dasharray="7 9"/>
+  <path d="M962 370h64c22 0 34 12 34 34v109c0 22 12 34 34 34h50"
+        fill="none" stroke="#809caf" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <circle cx="475" cy="421" r="4" fill="#d29a58"/>
+  <circle cx="1101" cy="547" r="4" fill="#d29a58"/>
+
+  <!-- Three independent verification marks -->
+  <g transform="translate(639 513)">
+    <circle r="24" fill="#111b22" stroke="#bfc8c4" stroke-width="2"/>
+    <circle r="8" fill="none" stroke="#d29a58" stroke-width="2"/>
+    <path d="M-5 0h10M0-5v10" stroke="#d7dbd2" stroke-width="1.5"/>
+    <path d="M-34-34l10 10M24 24l10 10" stroke="#6f8da2" stroke-width="2"/>
+  </g>
+  <g transform="translate(938 370)">
+    <circle r="24" fill="#111b22" stroke="#bfc8c4" stroke-width="2"/>
+    <path d="M-8-9h16v18H-8z" fill="none" stroke="#d7dbd2" stroke-width="1.5"/>
+    <path d="M-4-4h8M-4 1h8M-4 6h5" stroke="#d29a58" stroke-width="1.5"/>
+    <circle r="34" fill="none" stroke="#6f8da2" stroke-width="1" stroke-dasharray="3 8"/>
+  </g>
+  <g transform="translate(1168 547)">
+    <circle r="24" fill="#111b22" stroke="#bfc8c4" stroke-width="2"/>
+    <circle cx="-5" cy="-1" r="7" fill="none" stroke="#d7dbd2" stroke-width="1.5"/>
+    <path d="M1 5l8 8" stroke="#d29a58" stroke-width="2"/>
+    <path d="M-34 0h10M24 0h10" stroke="#6f8da2" stroke-width="2"/>
+  </g>
+
+  <!-- The deliberate gap: evidence must be reconnected by an observer -->
+  <path d="M1192 547h28" stroke="#809caf" stroke-width="2"/>
+  <path d="M1227 547h16" stroke="#d29a58" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
+
+  <!-- Open viewing window -->
+  <g filter="url(#shadow)">
+    <rect x="1210" y="185" width="280" height="508" rx="5" fill="#0d151b" stroke="#cad0c8" stroke-width="3"/>
+    <rect x="1228" y="203" width="244" height="472" rx="3" fill="url(#windowGlow)" stroke="#6f8da2" stroke-width="1.5"/>
+    <g clip-path="url(#viewClip)">
+      <rect x="1228" y="203" width="244" height="472" fill="url(#hatch)" opacity="0.45"/>
+      <circle cx="1351" cy="438" r="92" fill="none" stroke="#d7dbd2" stroke-width="1.5" opacity="0.65"/>
+      <circle cx="1351" cy="438" r="51" fill="none" stroke="#6f8da2" stroke-width="2" opacity="0.8"/>
+      <circle cx="1351" cy="438" r="7" fill="#d29a58"/>
+      <path d="M1228 438h244M1351 203v472" stroke="#d7dbd2" stroke-width="1" opacity="0.2"/>
+      <path d="M1265 615l172-354" stroke="#d7dbd2" stroke-width="16" opacity="0.035"/>
+    </g>
+    <path d="M1490 185l53 39v429l-53 40z" fill="#1b2932" stroke="#829aaa" stroke-width="2"/>
+    <path d="M1507 234v408" stroke="#d29a58" stroke-width="2" opacity="0.65"/>
+    <circle cx="1521" cy="439" r="5" fill="#d29a58"/>
+  </g>
+
+  <!-- Sparse registration and evidence traces -->
+  <g fill="#d7dbd2" opacity="0.35">
+    <circle cx="639" cy="577" r="2"/><circle cx="938" cy="306" r="2"/><circle cx="1168" cy="611" r="2"/>
+  </g>
+  <g stroke="#6f8da2" stroke-width="1" opacity="0.28">
+    <path d="M623 593h32M639 577v32"/>
+    <path d="M922 306h32M938 290v32"/>
+    <path d="M1152 611h32M1168 595v32"/>
+  </g>
+  <path d="M446 662h648" stroke="#cfd4cb" stroke-width="1" opacity="0.08" stroke-dasharray="1 14"/>
+</svg>
