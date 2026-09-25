@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+  <defs>
+    <linearGradient id="field" x1="120" y1="40" x2="1460" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071725"/>
+      <stop offset="0.55" stop-color="#0B2130"/>
+      <stop offset="1" stop-color="#102B37"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(800 454) rotate(90) scale(410 650)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#244352" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#0A1B29" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paper" x1="610" y1="262" x2="1005" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9E8"/>
+      <stop offset="0.55" stop-color="#F5EBD2"/>
+      <stop offset="1" stop-color="#EAD9B9"/>
+    </linearGradient>
+    <linearGradient id="paperEdge" x1="625" y1="250" x2="993" y2="677" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#D9C49E" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#020B11" flood-opacity="0.48"/>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <pattern id="grain" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="7" r="1" fill="#5E4D39" opacity="0.08"/>
+      <circle cx="18" cy="4" r="0.8" fill="#FFFFFF" opacity="0.22"/>
+      <circle cx="11" cy="19" r="0.9" fill="#7D6749" opacity="0.07"/>
+      <path d="M21 15l2 1M2 23l3-1" stroke="#8A7353" stroke-width="0.7" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#field)"/>
+  <rect width="1600" height="900" fill="url(#halo)"/>
+
+  <g opacity="0.2" fill="none" stroke="#A9E3D8" stroke-width="1">
+    <circle cx="800" cy="450" r="322"/>
+    <circle cx="800" cy="450" r="394" stroke-dasharray="2 18"/>
+  </g>
+  <g fill="#EAF5EA" opacity="0.28">
+    <circle cx="156" cy="166" r="3"/>
+    <circle cx="1442" cy="172" r="2"/>
+    <circle cx="1374" cy="735" r="3"/>
+    <circle cx="260" cy="754" r="2"/>
+    <circle cx="1220" cy="106" r="2"/>
+  </g>
+
+  <!-- three open routes: evidence, counterpoint, revision -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M626 402C535 394 494 338 421 322C353 307 306 329 259 313C222 301 199 273 174 244" stroke="#65D3C5" stroke-width="12"/>
+    <path d="M626 402C535 394 494 338 421 322C353 307 306 329 259 313C222 301 199 273 174 244" stroke="#CFF8F0" stroke-opacity="0.25" stroke-width="3"/>
+
+    <path d="M974 371C1056 339 1082 282 1150 244C1215 208 1268 216 1317 189C1352 170 1373 142 1396 113" stroke="#FF786F" stroke-width="12"/>
+    <path d="M974 371C1056 339 1082 282 1150 244C1215 208 1268 216 1317 189C1352 170 1373 142 1396 113" stroke="#FFE7DC" stroke-opacity="0.28" stroke-width="3"/>
+
+    <path d="M967 573C1049 602 1093 659 1165 680C1231 699 1282 678 1335 699C1380 717 1407 754 1432 794" stroke="#F3E7C7" stroke-width="12"/>
+    <path d="M967 573C1049 602 1093 659 1165 680C1231 699 1282 678 1335 699C1380 717 1407 754 1432 794" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="3"/>
+  </g>
+
+  <!-- open nodes preserve continuation through their centers -->
+  <g>
+    <circle cx="421" cy="322" r="44" fill="#0A1D2A" stroke="#65D3C5" stroke-width="9"/>
+    <circle cx="421" cy="322" r="17" fill="#65D3C5" opacity="0.25"/>
+    <path d="M385 322h72" stroke="#D7FFF7" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="421" cy="322" r="6" fill="#D7FFF7"/>
+
+    <path d="M1125 217l50 4 21 46-29 40-50-4-21-46z" fill="#0A1D2A" stroke="#FF786F" stroke-width="9"/>
+    <path d="M1111 282l78-51" stroke="#FFE4D8" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="1150" cy="256" r="7" fill="#FFE4D8"/>
+
+    <path d="M1165 632c27 0 49 22 49 49s-22 49-49 49c-16 0-30-8-39-20" fill="#0A1D2A" stroke="#F3E7C7" stroke-width="9" stroke-linecap="round"/>
+    <path d="M1126 710l-3-29 29 5" fill="none" stroke="#F3E7C7" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1126 680h78" stroke="#FFF8E7" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="1165" cy="680" r="7" fill="#FFF8E7"/>
+  </g>
+
+  <!-- open endpoints, deliberately unsealed -->
+  <g fill="#0A1D2A" stroke-width="7">
+    <path d="M151 218a34 34 0 1 0 48 48" stroke="#65D3C5" stroke-linecap="round"/>
+    <circle cx="174" cy="244" r="6" fill="#D7FFF7" stroke="none"/>
+    <path d="M1374 99a34 34 0 1 1 44 40" stroke="#FF786F" stroke-linecap="round"/>
+    <circle cx="1396" cy="113" r="6" fill="#FFE4D8" stroke="none"/>
+    <path d="M1405 816a34 34 0 1 0 49-45" stroke="#F3E7C7" stroke-linecap="round"/>
+    <circle cx="1432" cy="794" r="6" fill="#FFF8E7" stroke="none"/>
+  </g>
+
+  <!-- central proposal sheet -->
+  <g filter="url(#shadow)">
+    <path d="M624 254h300l71 71v321c0 23-19 42-42 42H647c-23 0-42-19-42-42V273c0-10 8-19 19-19z" fill="url(#paper)" stroke="url(#paperEdge)" stroke-width="3"/>
+    <path d="M924 254v51c0 22 18 40 40 40h31" fill="#DFC69E" opacity="0.72"/>
+    <path d="M924 254l71 71h-48c-13 0-23-10-23-23z" fill="#FFF6E0"/>
+    <path d="M624 254h300l71 71v321c0 23-19 42-42 42H647c-23 0-42-19-42-42V273c0-10 8-19 19-19z" fill="url(#grain)"/>
+  </g>
+
+  <!-- abstract, revisable structure on the sheet -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M680 365h148" stroke="#173746" stroke-width="22" opacity="0.92"/>
+    <path d="M680 414h229" stroke="#173746" stroke-width="12" opacity="0.34"/>
+    <path d="M680 449h172" stroke="#173746" stroke-width="12" opacity="0.24"/>
+    <path d="M680 518c43-38 75-37 111-4 31 28 66 32 114-9" stroke="#FF786F" stroke-width="11"/>
+    <path d="M680 580h114" stroke="#173746" stroke-width="12" opacity="0.3"/>
+    <path d="M680 615h168" stroke="#173746" stroke-width="12" opacity="0.2"/>
+    <path d="M861 582c28 0 50 22 50 50" stroke="#65D3C5" stroke-width="9"/>
+    <path d="M898 620l14 13 13-15" stroke="#65D3C5" stroke-width="9"/>
+  </g>
+
+  <!-- connection ports remain rings, not closures -->
+  <g fill="#0B2130" stroke-width="8">
+    <circle cx="626" cy="402" r="16" stroke="#65D3C5"/>
+    <circle cx="974" cy="371" r="16" stroke="#FF786F"/>
+    <circle cx="967" cy="573" r="16" stroke="#F3E7C7"/>
+  </g>
+
+  <g opacity="0.2" filter="url(#softGlow)">
+    <circle cx="421" cy="322" r="55" fill="#65D3C5"/>
+    <circle cx="1150" cy="256" r="55" fill="#FF786F"/>
+    <circle cx="1165" cy="680" r="55" fill="#F3E7C7"/>
+  </g>
+</svg>
