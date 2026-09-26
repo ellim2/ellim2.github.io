@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">A considered path through boundaries</title>
+  <desc id="desc">An abstract luminous route pauses at an inspection point, distinguishes anchored panels from a temporary marker, and continues through an open gap.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071524"/>
+      <stop offset="0.55" stop-color="#0b2030"/>
+      <stop offset="1" stop-color="#06131f"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#66d6d2" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#66d6d2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9ce7e2" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#6aa9b5" stop-opacity=".035"/>
+    </linearGradient>
+    <linearGradient id="route" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#e98f80"/>
+      <stop offset=".38" stop-color="#f2b09b"/>
+      <stop offset=".56" stop-color="#eef4df"/>
+      <stop offset="1" stop-color="#69d9d4"/>
+    </linearGradient>
+    <linearGradient id="routeFade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#e98f80" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#e98f80" stop-opacity=".2"/>
+      <stop offset=".75" stop-color="#65d8d2" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#65d8d2" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="915" cy="452" rx="650" ry="390" fill="url(#haze)"/>
+  <path d="M85 731 C310 660 445 596 598 558 C733 524 794 507 879 471 C1003 419 1164 310 1535 190" fill="none" stroke="url(#routeFade)" stroke-width="98" filter="url(#soft)"/>
+
+  <g fill="none" stroke="#88c7cb" stroke-opacity=".1" stroke-width="1">
+    <path d="M80 804 L1428 320"/>
+    <path d="M206 851 L1518 380"/>
+    <path d="M430 900 L1580 487"/>
+    <path d="M236 166 L1497 701"/>
+    <path d="M391 91 L1556 585"/>
+  </g>
+
+  <!-- Two substantial, anchored boundary planes -->
+  <g>
+    <path d="M642 186 L841 256 L838 629 L639 690 Z" fill="url(#panel)" stroke="#89d2d0" stroke-opacity=".56" stroke-width="2"/>
+    <path d="M656 202 L656 664 M679 210 L679 657" fill="none" stroke="#9ce7e2" stroke-opacity=".12"/>
+    <path d="M619 692 L855 620 L887 640 L650 717 Z" fill="#112d3b" stroke="#76c9c8" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M651 704 L651 728 M827 651 L827 675" stroke="#75d2cf" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="651" cy="731" rx="20" ry="7" fill="#63c9c6" opacity=".25"/>
+    <ellipse cx="827" cy="678" rx="20" ry="7" fill="#63c9c6" opacity=".25"/>
+  </g>
+  <g>
+    <path d="M1034 239 L1249 311 L1245 659 L1030 584 Z" fill="url(#panel)" stroke="#89d2d0" stroke-opacity=".56" stroke-width="2"/>
+    <path d="M1230 321 L1230 636 M1207 313 L1207 628" fill="none" stroke="#9ce7e2" stroke-opacity=".12"/>
+    <path d="M1011 579 L1261 663 L1241 689 L991 604 Z" fill="#112d3b" stroke="#76c9c8" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M1025 607 L1025 633 M1219 674 L1219 700" stroke="#75d2cf" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="1025" cy="636" rx="20" ry="7" fill="#63c9c6" opacity=".25"/>
+    <ellipse cx="1219" cy="703" rx="20" ry="7" fill="#63c9c6" opacity=".25"/>
+  </g>
+
+  <!-- A light, visibly movable temporary marker -->
+  <g transform="translate(0 -12)">
+    <path d="M883 318 L972 348 L970 543 L881 513 Z" fill="#e98f80" fill-opacity=".055" stroke="#ee9a88" stroke-opacity=".7" stroke-width="2" stroke-dasharray="10 11"/>
+    <path d="M869 514 L983 552" fill="none" stroke="#ee9a88" stroke-opacity=".52" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="869" cy="514" r="7" fill="#f0a08d"/>
+    <circle cx="983" cy="552" r="7" fill="#f0a08d"/>
+    <path d="M905 552 C921 568 949 574 969 563" fill="none" stroke="#e98f80" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+
+  <!-- Deliberate route, held briefly before the permitted opening -->
+  <path d="M-35 783 C244 709 413 631 585 590 C701 562 777 543 842 510 C865 498 875 483 882 465" fill="none" stroke="#f1a38f" stroke-opacity=".12" stroke-width="36" filter="url(#glow)"/>
+  <path d="M-35 783 C244 709 413 631 585 590 C701 562 777 543 842 510 C865 498 875 483 882 465" fill="none" stroke="url(#route)" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Inspection point: a calm optical node, not a barrier -->
+  <g transform="translate(896 448)">
+    <circle r="43" fill="#0a1a29" stroke="#c5eee6" stroke-opacity=".4" stroke-width="2"/>
+    <circle r="29" fill="none" stroke="#75d7d2" stroke-opacity=".45"/>
+    <circle r="9" fill="#f2b09b" filter="url(#glow)"/>
+    <path d="M-47 0 H-31 M31 0 H47 M0 -47 V-31 M0 31 V47" stroke="#91ddd8" stroke-opacity=".55" stroke-width="2"/>
+  </g>
+
+  <!-- Route resumes only through the generous gap between fixed planes -->
+  <path d="M932 426 C969 400 998 380 1020 357 C1050 326 1059 289 1097 264 C1195 200 1344 168 1635 103" fill="none" stroke="#66d9d4" stroke-opacity=".11" stroke-width="38" filter="url(#glow)"/>
+  <path d="M932 426 C969 400 998 380 1020 357 C1050 326 1059 289 1097 264 C1195 200 1344 168 1635 103" fill="none" stroke="url(#route)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="932" cy="426" r="6" fill="#dcefdc"/>
+
+  <!-- Quiet spatial cues that frame the allowed passage -->
+  <g fill="none" stroke="#71d3cf" stroke-linecap="round">
+    <path d="M952 385 C978 365 992 348 1006 325" stroke-opacity=".34" stroke-width="2"/>
+    <path d="M972 400 C996 382 1012 364 1026 341" stroke-opacity=".16"/>
+    <path d="M1101 219 C1180 174 1304 144 1437 117" stroke-opacity=".13"/>
+  </g>
+  <g fill="#9be4df">
+    <circle cx="1177" cy="220" r="2" opacity=".5"/>
+    <circle cx="1298" cy="180" r="2" opacity=".35"/>
+    <circle cx="1395" cy="151" r="2" opacity=".24"/>
+  </g>
+</svg>
