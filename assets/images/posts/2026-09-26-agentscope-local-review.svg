@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">로컬에서 검토하는 AI 에이전트 도구 권한 매니페스트</title>
+  <desc id="desc">어두운 배경 위 중앙의 종이형 JSON 매니페스트를 사람이 승인하고, 허용된 네트워크 호스트와 비밀 정보 범위를 점검하는 모습을 정밀한 선과 표시로 표현한 편집 일러스트레이션</desc>
+
+  <rect width="1600" height="900" fill="#111820"/>
+
+  <g stroke="#263341" stroke-width="1" opacity="0.55">
+    <path d="M80 90H1520M80 180H1520M80 270H1520M80 360H1520M80 450H1520M80 540H1520M80 630H1520M80 720H1520M80 810H1520"/>
+    <path d="M80 90V810M170 90V810M260 90V810M350 90V810M440 90V810M530 90V810M620 90V810M710 90V810M800 90V810M890 90V810M980 90V810M1070 90V810M1160 90V810M1250 90V810M1340 90V810M1430 90V810M1520 90V810"/>
+  </g>
+
+  <g fill="none" stroke="#53677A" stroke-width="2">
+    <path d="M116 154V112H158"/>
+    <path d="M1442 112H1484V154"/>
+    <path d="M116 746V788H158"/>
+    <path d="M1442 788H1484V746"/>
+  </g>
+  <g fill="#8EA3B7">
+    <circle cx="116" cy="186" r="3"/><circle cx="1484" cy="186" r="3"/>
+    <circle cx="116" cy="714" r="3"/><circle cx="1484" cy="714" r="3"/>
+  </g>
+
+  <rect x="305" y="112" width="990" height="676" rx="18" fill="#0B1117" stroke="#60758A" stroke-width="2"/>
+  <rect x="329" y="136" width="942" height="628" rx="10" fill="#E9EDF0" stroke="#AEB9C2" stroke-width="2"/>
+
+  <g fill="#CFD7DD">
+    <rect x="329" y="136" width="942" height="68" rx="10"/>
+    <rect x="329" y="194" width="942" height="10"/>
+  </g>
+  <g fill="#26323C">
+    <circle cx="370" cy="170" r="6"/>
+    <circle cx="394" cy="170" r="6" opacity="0.55"/>
+    <circle cx="418" cy="170" r="6" opacity="0.3"/>
+  </g>
+  <path d="M1135 170H1224" stroke="#748696" stroke-width="4" stroke-linecap="round"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M402 255H382V682H402" stroke="#718292" stroke-width="4"/>
+    <path d="M1198 255H1218V682H1198" stroke="#718292" stroke-width="4"/>
+
+    <g stroke-width="12">
+      <path d="M452 270H604" stroke="#415466"/>
+      <path d="M632 270H889" stroke="#9AA8B3"/>
+      <path d="M918 270H1113" stroke="#C2CBD1"/>
+
+      <path d="M488 326H678" stroke="#415466"/>
+      <path d="M707 326H958" stroke="#9AA8B3"/>
+      <path d="M987 326H1148" stroke="#7B8C9A"/>
+
+      <path d="M488 382H622" stroke="#415466"/>
+      <path d="M651 382H821" stroke="#9AA8B3"/>
+      <path d="M850 382H1088" stroke="#7B8C9A"/>
+
+      <path d="M488 438H732" stroke="#415466"/>
+      <path d="M761 438H1008" stroke="#9AA8B3"/>
+
+      <path d="M488 494H647" stroke="#415466"/>
+      <path d="M676 494H902" stroke="#9AA8B3"/>
+      <path d="M931 494H1128" stroke="#7B8C9A"/>
+
+      <path d="M488 550H694" stroke="#415466"/>
+      <path d="M723 550H852" stroke="#9AA8B3"/>
+      <path d="M881 550H1062" stroke="#7B8C9A"/>
+
+      <path d="M452 606H590" stroke="#415466"/>
+      <path d="M619 606H930" stroke="#9AA8B3"/>
+      <path d="M959 606H1138" stroke="#C2CBD1"/>
+
+      <path d="M452 662H728" stroke="#415466"/>
+      <path d="M757 662H1024" stroke="#9AA8B3"/>
+    </g>
+    <g stroke="#647787" stroke-width="3">
+      <path d="M462 315V393"/><path d="M462 483V561"/>
+    </g>
+  </g>
+
+  <g>
+    <circle cx="1237" cy="326" r="31" fill="#183F3A" stroke="#55B8A7" stroke-width="3"/>
+    <path d="M1223 326L1233 336L1252 315" fill="none" stroke="#8EE0D0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="1237" cy="438" r="31" fill="#19334A" stroke="#5B9BC8" stroke-width="3"/>
+    <circle cx="1228" cy="438" r="7" fill="none" stroke="#91C7E7" stroke-width="3"/>
+    <circle cx="1246" cy="438" r="7" fill="none" stroke="#91C7E7" stroke-width="3"/>
+    <path d="M1235 438H1239" stroke="#91C7E7" stroke-width="3"/>
+
+    <circle cx="1237" cy="550" r="31" fill="#392D49" stroke="#9A78B4" stroke-width="3"/>
+    <path d="M1224 549V542A13 13 0 0 1 1250 542V549M1221 549H1253V567H1221Z" fill="none" stroke="#C5A5DC" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="1237" cy="557" r="3" fill="#C5A5DC"/>
+  </g>
+
+  <g fill="none" stroke="#8294A4" stroke-width="2">
+    <path d="M1268 326H1366V282"/>
+    <path d="M1268 438H1400"/>
+    <path d="M1268 550H1366V594"/>
+  </g>
+  <g fill="#8294A4">
+    <circle cx="1366" cy="282" r="4"/><circle cx="1400" cy="438" r="4"/><circle cx="1366" cy="594" r="4"/>
+  </g>
+
+  <g transform="translate(220 676)">
+    <path d="M0 0V-42H54" fill="none" stroke="#9A7130" stroke-width="2"/>
+    <path d="M0-42L20-77L40-42Z" fill="#E2A948"/>
+    <path d="M20-66V-52" stroke="#1B2026" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="20" cy="-46" r="2.5" fill="#1B2026"/>
+  </g>
+
+  <g fill="#718496">
+    <rect x="158" y="447" width="104" height="3"/>
+    <rect x="1338" y="672" width="104" height="3"/>
+    <rect x="158" y="458" width="66" height="3" opacity="0.6"/>
+    <rect x="1376" y="683" width="66" height="3" opacity="0.6"/>
+  </g>
+</svg>
