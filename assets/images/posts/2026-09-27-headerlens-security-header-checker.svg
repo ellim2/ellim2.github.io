@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">헤더렌즈 보안 헤더 로컬 점검</title>
+  <desc id="desc">짙은 남색 배경 위 추상 브라우저 응답 카드에 확대경이 놓여 있고, 확대된 보안 헤더 행과 초록색 방패 확인 표시, 누락을 뜻하는 붉은색과 호박색 표식이 보이는 기술 일러스트레이션</desc>
+
+  <defs>
+    <clipPath id="lensClip">
+      <circle cx="1010" cy="455" r="208"/>
+    </clipPath>
+    <pattern id="dotGrid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#2A405E"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="#071321"/>
+  <rect x="42" y="42" width="1516" height="816" rx="36" fill="#0A192B" stroke="#1A314B" stroke-width="2"/>
+  <path d="M42 214H1558M1240 42V214" fill="none" stroke="#142A43" stroke-width="2"/>
+  <rect x="70" y="240" width="1460" height="590" fill="url(#dotGrid)" opacity="0.35"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="96" y="108" fill="#F2B84B" font-size="22" font-weight="700" letter-spacing="5">HEADERLENS</text>
+    <text x="96" y="166" fill="#F5F7FA" font-size="42" font-weight="700" letter-spacing="-1">LOCAL HEADER CHECK</text>
+    <rect x="1288" y="91" width="174" height="54" rx="27" fill="#10263B" stroke="#294762" stroke-width="2"/>
+    <circle cx="1324" cy="118" r="7" fill="#54B985"/>
+    <text x="1347" y="126" fill="#AFC2D4" font-size="18" letter-spacing="2">LOCAL</text>
+  </g>
+
+  <!-- Abstract browser response card -->
+  <g>
+    <rect x="170" y="290" width="870" height="450" rx="26" fill="#0D2136" stroke="#35516D" stroke-width="3"/>
+    <path d="M170 364H1040" stroke="#35516D" stroke-width="3"/>
+    <circle cx="214" cy="327" r="8" fill="#D65F5F"/>
+    <circle cx="242" cy="327" r="8" fill="#E6AA45"/>
+    <circle cx="270" cy="327" r="8" fill="#4FA878"/>
+    <rect x="316" y="310" width="434" height="34" rx="17" fill="#122B43"/>
+    <path d="M338 327H616" stroke="#45617B" stroke-width="5" stroke-linecap="round"/>
+    <rect x="928" y="310" width="68" height="34" rx="17" fill="#142F48"/>
+    <path d="M951 327H973" stroke="#6A8399" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Header rows outside the lens -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="222" y="412" fill="#7890A6" font-size="15" letter-spacing="3">RESPONSE HEADERS</text>
+    <g fill="#102940">
+      <rect x="214" y="438" width="750" height="52" rx="10"/>
+      <rect x="214" y="504" width="750" height="52" rx="10"/>
+      <rect x="214" y="570" width="750" height="52" rx="10"/>
+      <rect x="214" y="636" width="750" height="52" rx="10"/>
+    </g>
+    <g fill="#678199" font-size="17" font-weight="700" letter-spacing="2">
+      <text x="246" y="471">CSP</text>
+      <text x="246" y="537">HSTS</text>
+      <text x="246" y="603">REFERRER</text>
+      <text x="246" y="669">NOSNIFF</text>
+    </g>
+    <g stroke="#304A63" stroke-width="5" stroke-linecap="round">
+      <path d="M410 464H764"/>
+      <path d="M410 530H704"/>
+      <path d="M410 596H804"/>
+      <path d="M410 662H738"/>
+    </g>
+    <circle cx="918" cy="464" r="10" fill="#4FA878"/>
+    <circle cx="918" cy="530" r="10" fill="#D65F5F"/>
+    <circle cx="918" cy="596" r="10" fill="#E6AA45"/>
+    <circle cx="918" cy="662" r="10" fill="#4FA878"/>
+  </g>
+
+  <!-- Enlarged inspection field -->
+  <g clip-path="url(#lensClip)">
+    <circle cx="1010" cy="455" r="208" fill="#172A3C"/>
+    <path d="M790 320H1230M790 590H1230" stroke="#F2B84B" stroke-width="2" opacity="0.35"/>
+    <g fill="#203A50">
+      <rect x="806" y="327" width="420" height="62" rx="12"/>
+      <rect x="806" y="401" width="420" height="62" rx="12"/>
+      <rect x="806" y="475" width="420" height="62" rx="12"/>
+      <rect x="806" y="549" width="420" height="62" rx="12"/>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" font-weight="700" letter-spacing="2">
+      <text x="844" y="366" fill="#EAF1F6">CSP</text>
+      <text x="844" y="440" fill="#EAF1F6">HSTS</text>
+      <text x="844" y="514" fill="#EAF1F6">REFERRER</text>
+      <text x="844" y="588" fill="#EAF1F6">NOSNIFF</text>
+    </g>
+    <g stroke="#7891A8" stroke-width="6" stroke-linecap="round">
+      <path d="M1010 358H1132"/>
+      <path d="M1010 432H1100"/>
+      <path d="M1010 506H1160"/>
+      <path d="M1010 580H1118"/>
+    </g>
+    <g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1173 357l10 10 21-24" stroke="#67C992"/>
+      <path d="M1175 421l22 22m0-22-22 22" stroke="#F06A6A"/>
+      <path d="M1186 491v18m0 9v1" stroke="#F2B84B"/>
+      <path d="M1173 579l10 10 21-24" stroke="#67C992"/>
+    </g>
+  </g>
+
+  <!-- Magnifying lens rim and handle -->
+  <circle cx="1010" cy="455" r="218" fill="none" stroke="#F2B84B" stroke-width="18"/>
+  <circle cx="1010" cy="455" r="232" fill="none" stroke="#FFD47A" stroke-width="3" opacity="0.7"/>
+  <path d="M1170 612L1329 771" stroke="#071321" stroke-width="60" stroke-linecap="round"/>
+  <path d="M1170 612L1329 771" stroke="#F2B84B" stroke-width="38" stroke-linecap="round"/>
+  <path d="M1192 632L1316 756" stroke="#FFD47A" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Shield confirmation -->
+  <g transform="translate(1290 312)">
+    <path d="M0 0l86 29v70c0 65-39 111-86 133-47-22-86-68-86-133V29L0 0z" fill="#0F2D2B" stroke="#5CC58C" stroke-width="5"/>
+    <path d="M-36 105l25 25 51-62" fill="none" stroke="#72D69D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="7" fill="#72D69D"/>
+  </g>
+
+  <!-- Restrained status key -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" letter-spacing="2">
+    <rect x="1226" y="612" width="274" height="92" rx="18" fill="#0D2136" stroke="#294762" stroke-width="2"/>
+    <circle cx="1260" cy="645" r="7" fill="#D65F5F"/>
+    <text x="1280" y="651" fill="#AFC2D4">MISSING</text>
+    <circle cx="1260" cy="676" r="7" fill="#E6AA45"/>
+    <text x="1280" y="682" fill="#AFC2D4">REVIEW</text>
+  </g>
+
+  <path d="M96 794H1132" stroke="#1D354E" stroke-width="2"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="96" y="827" fill="#7D93A8" font-size="16" letter-spacing="3">INSPECT · VERIFY · KEEP IT LOCAL</text>
+    <text x="1494" y="827" fill="#3F5A72" font-size="16" text-anchor="end">09 / 27</text>
+  </g>
+</svg>
