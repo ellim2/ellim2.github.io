@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">From product roadmap to observable use</title>
+  <desc id="desc">An abstract editorial illustration in which a polished feature card meets an empty framed situation, then resolves into a small scene of observable interaction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171b1e"/>
+      <stop offset="1" stop-color="#22292e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#dedbd0"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7593aa"/>
+      <stop offset="1" stop-color="#415f74"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#090b0c" flood-opacity=".42"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="sceneClip">
+      <rect x="1050" y="226" width="374" height="448" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 742C244 670 410 782 642 740s388-171 581-115 251 65 377 19v256H0Z" fill="#111518" opacity=".48"/>
+  <circle cx="1288" cy="198" r="248" fill="#55758b" opacity=".08"/>
+  <circle cx="251" cy="706" r="196" fill="#f4efe3" opacity=".035"/>
+
+  <!-- A polished proposition: complete in itself, but still detached from use. -->
+  <g filter="url(#shadow)" transform="rotate(-4 432 416)">
+    <rect x="188" y="214" width="488" height="408" rx="30" fill="url(#card)"/>
+    <rect x="213" y="239" width="438" height="358" rx="17" fill="none" stroke="#182126" stroke-opacity=".15"/>
+    <circle cx="250" cy="277" r="10" fill="#506f84"/>
+    <path d="M280 277h155" stroke="#263238" stroke-width="12" stroke-linecap="round" opacity=".78"/>
+    <path d="M250 337h338M250 374h258" stroke="#58768a" stroke-width="15" stroke-linecap="round" opacity=".67"/>
+    <rect x="250" y="427" width="338" height="101" rx="18" fill="#202a30"/>
+    <path d="M282 477h142" stroke="#f8f3e7" stroke-width="13" stroke-linecap="round" opacity=".88"/>
+    <circle cx="543" cy="477" r="22" fill="#6e8ea4"/>
+    <path d="M534 477l7 7 13-16" fill="none" stroke="#fffaf0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M250 560h74M342 560h112" stroke="#263238" stroke-width="10" stroke-linecap="round" opacity=".24"/>
+  </g>
+
+  <!-- The unresolved question is expressed as an open threshold, not a diagram arrow. -->
+  <path d="M713 454c76-60 147-64 226-9" fill="none" stroke="#f5efe2" stroke-width="3" stroke-linecap="round" opacity=".26"/>
+  <path d="M768 524c53-35 106-37 159-7" fill="none" stroke="#6c8ba0" stroke-width="9" stroke-linecap="round" opacity=".76"/>
+  <circle cx="733" cy="471" r="7" fill="#f5efe2" opacity=".8"/>
+  <circle cx="952" cy="437" r="7" fill="#6f8ea3"/>
+  <path d="M835 353v184" stroke="#f5efe2" stroke-width="2" stroke-dasharray="3 15" stroke-linecap="round" opacity=".24"/>
+  <ellipse cx="840" cy="575" rx="92" ry="19" fill="#050708" opacity=".35" filter="url(#soft)"/>
+
+  <!-- The empty frame makes the missing user situation explicit. -->
+  <rect x="1019" y="195" width="436" height="510" rx="42" fill="#111619" stroke="#eae5da" stroke-width="3" stroke-opacity=".82"/>
+  <rect x="1050" y="226" width="374" height="448" rx="26" fill="#1c2429"/>
+  <path d="M1050 344h374M1188 226v118" stroke="#f4eee1" stroke-width="2" opacity=".12"/>
+  <circle cx="1237" cy="427" r="72" fill="none" stroke="#7190a5" stroke-width="2" stroke-dasharray="5 12" opacity=".28"/>
+
+  <!-- Within the frame, a modest, legible use scene comes into focus. -->
+  <g clip-path="url(#sceneClip)">
+    <path d="M1008 653c92-104 183-94 264-40s143 34 204-49v132h-468Z" fill="#26353e"/>
+    <path d="M1088 578h176v112h-176Z" fill="#ece6da"/>
+    <path d="M1112 603h128v12h-128ZM1112 631h78" stroke="#58768a" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+    <circle cx="1217" cy="654" r="13" fill="#26343c"/>
+    <path d="M1223 647l48-65" stroke="#7594a9" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="1275" cy="578" r="17" fill="#7594a9"/>
+    <path d="M1275 578l71 16" stroke="#7594a9" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+    <circle cx="1348" cy="594" r="6" fill="#f5efe2"/>
+    <path d="M1076 508h97l26 27h-123Z" fill="#526f82" opacity=".72"/>
+    <path d="M1299 494h93v10h-93Z" fill="#f5efe2" opacity=".35"/>
+  </g>
+
+  <path d="M1068 726h336" stroke="#6f8da1" stroke-width="3" stroke-linecap="round" opacity=".33"/>
+  <circle cx="1162" cy="726" r="7" fill="#f5efe2" opacity=".72"/>
+  <circle cx="1288" cy="726" r="7" fill="#6f8ea3"/>
+</svg>
