@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">근거 링크 누락을 찾는 로컬 문서 점검</title>
+  <desc id="desc">어두운 남색 배경에서 돋보기가 문서 속 숫자 주장과 비어 있는 인용 위치를 찾고, 양쪽의 출처 연결을 보여 주는 편집 일러스트레이션.</desc>
+
+  <defs>
+    <pattern id="paper-speckle" width="64" height="64" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="11" r="1.5" fill="#D7C8AE" opacity="0.22"/>
+      <circle cx="39" cy="18" r="1" fill="#C9B796" opacity="0.18"/>
+      <circle cx="55" cy="47" r="1.4" fill="#D1BFA2" opacity="0.20"/>
+      <path d="M18 42h8M31 57h5" stroke="#C8B392" stroke-width="1" opacity="0.18"/>
+    </pattern>
+    <clipPath id="lens-clip">
+      <circle cx="892" cy="471" r="126"/>
+    </clipPath>
+  </defs>
+
+  <!-- editorial field -->
+  <rect width="1600" height="900" fill="#081A2D"/>
+  <path d="M0 724C248 682 397 755 638 720s430-7 581 16 248-9 381-35v199H0Z" fill="#0B2238"/>
+  <circle cx="216" cy="170" r="4" fill="#EFA56B" opacity="0.75"/>
+  <circle cx="1394" cy="714" r="3" fill="#59B8B1" opacity="0.70"/>
+  <path d="M106 243h92M1403 265h91M110 658h66M1436 594h58" stroke="#6C8190" stroke-width="2" opacity="0.22"/>
+
+  <!-- restrained source connections -->
+  <path d="M401 328C497 337 504 378 584 385" fill="none" stroke="#2D9D98" stroke-width="4" stroke-linecap="round" opacity="0.72"/>
+  <path d="M1012 613C1118 605 1146 654 1234 637" fill="none" stroke="#2D9D98" stroke-width="4" stroke-linecap="round" opacity="0.72"/>
+  <path d="M417 329l-15-10 2 18Z" fill="#2D9D98" opacity="0.72"/>
+  <path d="M1217 638l16-9-3 18Z" fill="#2D9D98" opacity="0.72"/>
+
+  <!-- left linked-source anchor -->
+  <g transform="translate(292 265) rotate(-8 78 62)">
+    <rect x="8" y="27" width="98" height="48" rx="24" fill="none" stroke="#43B3AA" stroke-width="13"/>
+    <rect x="63" y="50" width="98" height="48" rx="24" fill="none" stroke="#43B3AA" stroke-width="13"/>
+    <path d="M72 60h29" stroke="#A7E0D7" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="22" cy="90" r="5" fill="#F3AA65"/>
+  </g>
+
+  <!-- right linked-source anchor -->
+  <g transform="translate(1234 568) rotate(9 78 62)">
+    <rect x="8" y="27" width="98" height="48" rx="24" fill="none" stroke="#43B3AA" stroke-width="13"/>
+    <rect x="63" y="50" width="98" height="48" rx="24" fill="none" stroke="#43B3AA" stroke-width="13"/>
+    <path d="M72 60h29" stroke="#A7E0D7" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="145" cy="34" r="5" fill="#F3AA65"/>
+  </g>
+
+  <!-- document shadow and sheet -->
+  <path d="M572 151h482l63 66v532H572Z" fill="#020D17" opacity="0.38" transform="translate(12 17)"/>
+  <path d="M572 151h482l63 66v532H572Z" fill="#F1E7D2"/>
+  <path d="M1054 151v66h63Z" fill="#CDBD9F"/>
+  <path d="M1054 151v66h63" fill="none" stroke="#BBA989" stroke-width="3"/>
+  <path d="M572 151h482l63 66v532H572Z" fill="url(#paper-speckle)"/>
+
+  <!-- abstract Korean-like heading and text rhythm -->
+  <g fill="#18354A">
+    <path d="M642 223h33v12h-20v15h20v12h-33Zm43 0h13v39h-13Zm20 4h11v11h-11Zm0 19h27v11h-27Z"/>
+    <path d="M752 223h12v13h18v-13h12v39h-12v-15h-18v15h-12Zm53 0h38v11h-13v28h-12v-28h-13Z"/>
+    <rect x="642" y="288" width="302" height="8" rx="4" opacity="0.62"/>
+    <rect x="956" y="288" width="86" height="8" rx="4" opacity="0.38"/>
+  </g>
+
+  <g fill="#496170" opacity="0.76">
+    <path d="M642 334h14v11h18v-11h14v30h-14v-9h-18v9h-14Zm58 0h41v10h-14v20h-13v-20h-14Z"/>
+    <rect x="754" y="338" width="190" height="8" rx="4"/>
+    <rect x="958" y="338" width="74" height="8" rx="4"/>
+    <path d="M642 386h39v10h-13v19h-13v-19h-13Zm54 0h13v29h-13Zm23 0h32v10h-19v9h19v10h-32Z"/>
+    <rect x="765" y="390" width="252" height="8" rx="4"/>
+    <rect x="642" y="552" width="185" height="8" rx="4"/>
+    <path d="M842 548h12v12h17v-12h12v31h-12v-9h-17v9h-12Zm52 0h39v10h-13v21h-13v-21h-13Z"/>
+    <rect x="946" y="552" width="89" height="8" rx="4"/>
+    <path d="M642 600h13v30h-13Zm23 0h36v10h-12v20h-12v-20h-12Zm49 0h12v11h18v-11h12v30h-12v-9h-18v9h-12Z"/>
+    <rect x="771" y="604" width="246" height="8" rx="4"/>
+    <rect x="642" y="658" width="118" height="8" rx="4"/>
+    <rect x="776" y="658" width="262" height="8" rx="4"/>
+  </g>
+
+  <!-- highlighted numerical claim beneath lens -->
+  <g clip-path="url(#lens-clip)">
+    <circle cx="892" cy="471" r="126" fill="#FFF5DF"/>
+    <rect x="642" y="445" width="116" height="8" rx="4" fill="#496170" opacity="0.66"/>
+    <path d="M783 421h55v14l-31 69h-24l30-64h-30Zm69 0h21v83h-21Zm59 0c22 0 36 17 36 42s-14 42-36 42-36-17-36-42 14-42 36-42Zm0 20c-8 0-13 8-13 22s5 22 13 22 13-8 13-22-5-22-13-22Z" fill="#18354A"/>
+    <path d="M961 427h13l-29 72h-13Zm-16-5c11 0 18 8 18 20s-7 20-18 20-18-8-18-20 7-20 18-20Zm0 10c-4 0-7 4-7 10s3 10 7 10 7-4 7-10-3-10-7-10Zm17 32c11 0 18 8 18 20s-7 20-18 20-18-8-18-20 7-20 18-20Zm0 10c-4 0-7 4-7 10s3 10 7 10 7-4 7-10-3-10-7-10Z" fill="#18354A"/>
+    <rect x="994" y="447" width="83" height="8" rx="4" fill="#496170" opacity="0.66"/>
+  </g>
+
+  <!-- amber citation gap -->
+  <path d="M982 518h43" stroke="#F2AD45" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="1038" cy="518" r="8" fill="#F2AD45"/>
+  <path d="M1038 496v-13" stroke="#F2AD45" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- magnifying lens -->
+  <circle cx="892" cy="471" r="134" fill="none" stroke="#F1715B" stroke-width="22"/>
+  <path d="M988 567l116 116" stroke="#F1715B" stroke-width="34" stroke-linecap="round"/>
+  <path d="M1006 585l80 80" stroke="#FF9A63" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+  <path d="M809 384c25-21 57-33 91-32" fill="none" stroke="#FFD0B6" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- local/private boundary cue -->
+  <path d="M516 114v-22h22M1082 92h22v22M1104 786v22h-22M538 808h-22v-22" fill="none" stroke="#587385" stroke-width="4" stroke-linecap="round" opacity="0.64"/>
+  <circle cx="516" cy="92" r="4" fill="#43B3AA"/>
+  <circle cx="1104" cy="808" r="4" fill="#43B3AA"/>
+</svg>
