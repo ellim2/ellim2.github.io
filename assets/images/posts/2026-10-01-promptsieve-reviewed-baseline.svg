@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">검토 게이트를 통과하는 알림 카드</title>
+  <desc id="desc">짙은 남색 배경 위에서 흐릿한 알림 카드들이 얇은 검토 게이트를 지나 차분한 청록색 확인 토큰으로 정리되고, 새로운 산호색 알림 하나는 검토 대상으로 바깥에 남아 있는 추상 편집 이미지</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="1" stop-color="#0C2134"/>
+    </linearGradient>
+    <linearGradient id="gate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83A4B5" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#B5CBD3" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#83A4B5" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="token" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3DB5AA"/>
+      <stop offset="1" stop-color="#238D89"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020A13" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <path d="M70 632C344 563 532 599 742 549S1146 421 1534 461" fill="none" stroke="#385166" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M80 661C340 606 536 641 758 583S1174 464 1522 493" fill="none" stroke="#4D687A" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Muted alerts approaching review -->
+  <g filter="url(#shadow)">
+    <g transform="translate(105 290) rotate(-4 120 115)">
+      <rect width="240" height="230" rx="28" fill="#293B4C" stroke="#526476" stroke-width="2"/>
+      <circle cx="42" cy="43" r="10" fill="#A68C72" opacity="0.74"/>
+      <rect x="67" y="34" width="104" height="17" rx="8.5" fill="#8291A0" opacity="0.54"/>
+      <rect x="28" y="83" width="184" height="15" rx="7.5" fill="#718293" opacity="0.35"/>
+      <rect x="28" y="113" width="136" height="15" rx="7.5" fill="#718293" opacity="0.26"/>
+      <path d="M29 178h182" stroke="#607385" stroke-width="2" opacity="0.36"/>
+      <circle cx="190" cy="196" r="9" fill="#8D7D70" opacity="0.44"/>
+    </g>
+    <g transform="translate(330 336) rotate(3 112 105)">
+      <rect width="224" height="210" rx="27" fill="#243849" stroke="#4D6374" stroke-width="2"/>
+      <circle cx="41" cy="42" r="9" fill="#B0997F" opacity="0.58"/>
+      <rect x="65" y="34" width="111" height="16" rx="8" fill="#8191A0" opacity="0.47"/>
+      <rect x="28" y="82" width="168" height="14" rx="7" fill="#718293" opacity="0.32"/>
+      <rect x="28" y="110" width="122" height="14" rx="7" fill="#718293" opacity="0.23"/>
+      <path d="M29 162h166" stroke="#607385" stroke-width="2" opacity="0.3"/>
+      <circle cx="176" cy="180" r="8" fill="#8D7D70" opacity="0.4"/>
+    </g>
+    <g transform="translate(535 305) rotate(-2 105 110)">
+      <rect width="210" height="220" rx="26" fill="#2A3E4E" stroke="#536777" stroke-width="2"/>
+      <circle cx="39" cy="42" r="9" fill="#9D8D7C" opacity="0.53"/>
+      <rect x="63" y="34" width="100" height="16" rx="8" fill="#8493A0" opacity="0.43"/>
+      <rect x="27" y="83" width="156" height="14" rx="7" fill="#718293" opacity="0.29"/>
+      <rect x="27" y="111" width="112" height="14" rx="7" fill="#718293" opacity="0.21"/>
+      <path d="M28 169h154" stroke="#607385" stroke-width="2" opacity="0.28"/>
+      <circle cx="163" cy="190" r="8" fill="#8D7D70" opacity="0.36"/>
+    </g>
+  </g>
+
+  <!-- Thin review gate -->
+  <g>
+    <rect x="790" y="173" width="8" height="552" rx="4" fill="url(#gate)"/>
+    <path d="M754 173h80M754 725h80" stroke="#A8C0CA" stroke-opacity="0.56" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="794" cy="449" r="31" fill="#0B1D2F" stroke="#9CB7C2" stroke-width="3"/>
+    <path d="M781 449l9 9 18-20" fill="none" stroke="#7FD0C4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Reviewed, accepted tokens -->
+  <g filter="url(#shadow)">
+    <g transform="translate(888 299) rotate(-5 78 78)">
+      <rect width="156" height="156" rx="44" fill="url(#token)" stroke="#65C9BE" stroke-width="2"/>
+      <path d="M48 79l20 20 42-48" fill="none" stroke="#D9F6EF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(1056 384) rotate(4 70 70)">
+      <rect width="140" height="140" rx="40" fill="url(#token)" stroke="#65C9BE" stroke-width="2"/>
+      <path d="M43 71l18 18 37-43" fill="none" stroke="#D9F6EF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(1220 279) rotate(-2 64 64)">
+      <rect width="128" height="128" rx="37" fill="url(#token)" stroke="#65C9BE" stroke-width="2"/>
+      <path d="M39 65l16 16 34-39" fill="none" stroke="#D9F6EF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- New alert retained outside the accepted group -->
+  <g transform="translate(1261 548) rotate(5 113 101)" filter="url(#shadow)">
+    <rect width="226" height="202" rx="29" fill="#E56F53" stroke="#FF9A70" stroke-width="3"/>
+    <circle cx="43" cy="43" r="11" fill="#FFE0CD" opacity="0.94"/>
+    <rect x="70" y="34" width="104" height="18" rx="9" fill="#FFF0E5" opacity="0.88"/>
+    <rect x="29" y="85" width="168" height="15" rx="7.5" fill="#8D2F32" opacity="0.35"/>
+    <rect x="29" y="115" width="121" height="15" rx="7.5" fill="#8D2F32" opacity="0.25"/>
+    <path d="M30 160h166" stroke="#FFE1CF" stroke-width="2" opacity="0.55"/>
+    <circle cx="177" cy="177" r="10" fill="#7D2930" opacity="0.5"/>
+  </g>
+  <path d="M1371 521v-34" stroke="#F28B68" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="1371" cy="472" r="7" fill="#F28B68"/>
+
+  <!-- Quiet directional cues -->
+  <path d="M706 627c36 1 57-6 78-23" fill="none" stroke="#70899A" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M772 592l13 12-17 7" fill="none" stroke="#70899A" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
