@@ -4,7 +4,7 @@ title: "주소를 바꾼 날, 정적 사이트의 기준 URL도 함께 고쳤다
 description: "Pages 주소가 바뀔 때 화면보다 먼저 확인해야 하는 정적 사이트의 기준 URL 설정."
 date: 2026-08-20 23:50:00 +0900
 categories: notes
-tags: [Jekyll, GitHub-Pages, SEO, 운영]
+tags: [Jekyll, GitHub Pages, SEO, 운영]
 kind: "작업 기록"
 ---
 

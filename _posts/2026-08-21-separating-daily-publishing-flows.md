@@ -4,7 +4,7 @@ title: "매일 쓰는 두 종류의 기록을 왜 별도 발행 흐름으로 나
 description: "작업 사실을 남기는 기록과 관점을 다루는 기록을 분리하고, 같은 저장소를 안전하게 공유하도록 발행 흐름을 다시 설계했다."
 date: 2026-08-21 23:51:00 +0900
 categories: notes
-tags: [자동화, 발행, 작업기록, 생각기록, GitHub-Pages]
+tags: [자동화, 발행, 작업기록, 생각기록, GitHub Pages]
 kind: "작업 기록"
 image: /assets/images/posts/2026-08-21-separating-daily-publishing-flows.svg
 image_alt: "하루의 대화와 작업 흐름에서 작업 기록과 생각 기록이 각각의 검토 기준을 거쳐 같은 블로그 저장소로 들어가고, 동기화와 검증 뒤 공개되는 구조도"
