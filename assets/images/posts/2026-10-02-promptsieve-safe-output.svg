@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Protected document excerpt passing through redaction into a neutral report</title>
+  <desc id="description">A midnight-blue editorial illustration with an abstract document at left, a coral redaction barrier in the center, and a clean cyan report panel at right containing only geometric rule and line markers.</desc>
+  <defs>
+    <linearGradient id="background" x1="120" y1="60" x2="1480" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07152F"/>
+      <stop offset="0.55" stop-color="#0A2142"/>
+      <stop offset="1" stop-color="#06162D"/>
+    </linearGradient>
+    <linearGradient id="document" x1="204" y1="154" x2="660" y2="735" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173A61"/>
+      <stop offset="1" stop-color="#0C2748"/>
+    </linearGradient>
+    <linearGradient id="report" x1="1028" y1="186" x2="1397" y2="716" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9FCFF"/>
+      <stop offset="1" stop-color="#7DE8F1"/>
+    </linearGradient>
+    <linearGradient id="redaction" x1="650" y1="450" x2="986" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF806F"/>
+      <stop offset="0.5" stop-color="#FF5F61"/>
+      <stop offset="1" stop-color="#F34C60"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="translate(830 448) rotate(90) scale(365 690)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163C68" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#07152F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#020B1C" flood-opacity="0.52"/>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="documentClip">
+      <path d="M198 170C198 153.431 211.431 140 228 140H564L684 260V720C684 736.569 670.569 750 654 750H228C211.431 750 198 736.569 198 720V170Z"/>
+    </clipPath>
+    <clipPath id="reportClip">
+      <rect x="1006" y="168" width="390" height="564" rx="34"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <rect width="1600" height="900" fill="url(#ambient)"/>
+
+  <g opacity="0.42" fill="none" stroke="#3E7AA8" stroke-width="2">
+    <path d="M84 121H306"/>
+    <path d="M1292 790H1516"/>
+    <path d="M120 161H216"/>
+    <path d="M1383 750H1480"/>
+  </g>
+  <g fill="#52D9EA">
+    <circle cx="84" cy="121" r="4" opacity="0.8"/>
+    <circle cx="1516" cy="790" r="4" opacity="0.8"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M198 170C198 153.431 211.431 140 228 140H564L684 260V720C684 736.569 670.569 750 654 750H228C211.431 750 198 736.569 198 720V170Z" fill="url(#document)" stroke="#2E6087" stroke-width="3"/>
+    <path d="M564 140V236C564 249.255 574.745 260 588 260H684" fill="#204A70" stroke="#39749E" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <g clip-path="url(#documentClip)">
+    <circle cx="262" cy="232" r="23" fill="#54DBE9" opacity="0.9"/>
+    <rect x="302" y="216" width="174" height="12" rx="6" fill="#9CBBD0" opacity="0.72"/>
+    <rect x="302" y="240" width="112" height="9" rx="4.5" fill="#6689A6" opacity="0.72"/>
+    <g fill="#A7C5D8" opacity="0.68">
+      <rect x="246" y="316" width="347" height="12" rx="6"/>
+      <rect x="246" y="351" width="298" height="12" rx="6"/>
+      <rect x="246" y="386" width="372" height="12" rx="6"/>
+      <rect x="246" y="421" width="241" height="12" rx="6"/>
+      <rect x="246" y="535" width="331" height="12" rx="6"/>
+      <rect x="246" y="570" width="270" height="12" rx="6"/>
+      <rect x="246" y="605" width="358" height="12" rx="6"/>
+      <rect x="246" y="640" width="214" height="12" rx="6"/>
+    </g>
+    <g fill="#FF7468" opacity="0.78">
+      <circle cx="246" cy="475" r="6"/>
+      <rect x="266" y="469" width="86" height="12" rx="6"/>
+      <rect x="365" y="469" width="154" height="12" rx="6"/>
+      <rect x="532" y="469" width="70" height="12" rx="6"/>
+    </g>
+    <path d="M631 296V677" stroke="#55DDEB" stroke-width="3" stroke-linecap="round" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M692 341C740 341 760 375 790 402" stroke="#48D4E5" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 17"/>
+    <path d="M692 559C740 559 760 525 790 498" stroke="#48D4E5" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 17"/>
+    <path d="M922 402C952 375 972 341 1006 341" stroke="#48D4E5" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 17"/>
+    <path d="M922 498C952 525 972 559 1006 559" stroke="#48D4E5" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 17"/>
+  </g>
+
+  <rect x="681" y="402" width="298" height="96" rx="48" fill="#FF5C61" opacity="0.22" filter="url(#softGlow)"/>
+  <g filter="url(#shadow)">
+    <path d="M664 389C664 371.327 678.327 357 696 357H951C968.673 357 983 371.327 983 389V511C983 528.673 968.673 543 951 543H696C678.327 543 664 528.673 664 511V389Z" fill="url(#redaction)"/>
+    <path d="M704 411L754 489" stroke="#A92947" stroke-width="20" stroke-linecap="round" opacity="0.42"/>
+    <path d="M764 411L814 489" stroke="#A92947" stroke-width="20" stroke-linecap="round" opacity="0.42"/>
+    <path d="M824 411L874 489" stroke="#A92947" stroke-width="20" stroke-linecap="round" opacity="0.42"/>
+    <path d="M884 411L934 489" stroke="#A92947" stroke-width="20" stroke-linecap="round" opacity="0.42"/>
+    <rect x="696" y="377" width="255" height="7" rx="3.5" fill="#FFB3A6" opacity="0.62"/>
+    <rect x="696" y="516" width="255" height="7" rx="3.5" fill="#C22E4D" opacity="0.48"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1006" y="168" width="390" height="564" rx="34" fill="url(#report)" stroke="#BFFBFF" stroke-width="3"/>
+  </g>
+  <g clip-path="url(#reportClip)">
+    <rect x="1006" y="168" width="390" height="86" fill="#55D7E5" opacity="0.42"/>
+    <circle cx="1059" cy="211" r="18" fill="#08708D"/>
+    <path d="M1050 211L1057 218L1069 204" fill="none" stroke="#C9FCFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1093" y="201" width="128" height="10" rx="5" fill="#0A718D" opacity="0.78"/>
+    <rect x="1093" y="221" width="77" height="7" rx="3.5" fill="#2089A0" opacity="0.58"/>
+
+    <g fill="none" stroke="#087791" stroke-width="4">
+      <circle cx="1066" cy="319" r="18"/>
+      <circle cx="1066" cy="421" r="18"/>
+      <circle cx="1066" cy="523" r="18"/>
+      <circle cx="1066" cy="625" r="18"/>
+    </g>
+    <g fill="none" stroke="#087791" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1057 319L1064 326L1076 312"/>
+      <path d="M1057 421L1064 428L1076 414"/>
+      <path d="M1057 523L1064 530L1076 516"/>
+      <path d="M1057 625L1064 632L1076 618"/>
+    </g>
+    <g fill="#117A92">
+      <rect x="1107" y="301" width="199" height="10" rx="5"/>
+      <rect x="1107" y="325" width="128" height="8" rx="4" opacity="0.55"/>
+      <rect x="1107" y="403" width="155" height="10" rx="5"/>
+      <rect x="1107" y="427" width="210" height="8" rx="4" opacity="0.55"/>
+      <rect x="1107" y="505" width="216" height="10" rx="5"/>
+      <rect x="1107" y="529" width="106" height="8" rx="4" opacity="0.55"/>
+      <rect x="1107" y="607" width="173" height="10" rx="5"/>
+      <rect x="1107" y="631" width="137" height="8" rx="4" opacity="0.55"/>
+    </g>
+    <g stroke="#319DB0" stroke-width="2" opacity="0.48">
+      <path d="M1048 370H1352"/>
+      <path d="M1048 472H1352"/>
+      <path d="M1048 574H1352"/>
+      <path d="M1048 676H1352"/>
+    </g>
+  </g>
+
+  <g fill="#53DDEB">
+    <circle cx="969" cy="278" r="5" opacity="0.88"/>
+    <circle cx="1015" cy="758" r="5" opacity="0.7"/>
+    <circle cx="719" cy="616" r="4" opacity="0.54"/>
+  </g>
+  <g fill="none" stroke="#FF7468" stroke-width="3" opacity="0.66">
+    <circle cx="746" cy="280" r="11"/>
+    <path d="M735 280H757M746 269V291"/>
+  </g>
+</svg>
