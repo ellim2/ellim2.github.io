@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">가속을 멈추고 결과를 헤아리는 에이전트</title>
+  <desc id="svg-desc">짙은 남색 작업 공간에서 여러 황금빛 화살이 좁은 관문으로 돌진하고, 반투명한 측정 프레임이 그중 하나를 잠시 멈춰 세워 행동의 결과를 숙고하게 하는 추상 편집 일러스트</desc>
+  <metadata>한국어 에세이 표지용 추상 기하 일러스트레이션. 긴급함을 곧바로 행동으로 바꾸지 않고 결과에 대한 질문을 보존하는 인공지능 에이전트를 상징한다.</metadata>
+
+  <rect width="1600" height="900" fill="#08131f"/>
+  <rect x="72" y="66" width="1456" height="768" rx="28" fill="#0c1a28" stroke="#263b4e" stroke-width="2"/>
+
+  <!-- Quiet workspace structure -->
+  <path d="M118 170H1482 M118 310H1482 M118 450H1482 M118 590H1482 M118 730H1482" fill="none" stroke="#263b4e" stroke-width="2" opacity="0.58"/>
+  <path d="M244 108V792 M464 108V792 M684 108V792 M904 108V792 M1124 108V792 M1344 108V792" fill="none" stroke="#1d3042" stroke-width="2" opacity="0.62"/>
+  <path d="M116 764L474 406L746 678L1046 378" fill="none" stroke="#334a5d" stroke-width="3" opacity="0.38"/>
+  <circle cx="244" cy="170" r="7" fill="#456078" opacity="0.55"/>
+  <circle cx="464" cy="590" r="7" fill="#456078" opacity="0.55"/>
+  <circle cx="904" cy="310" r="7" fill="#456078" opacity="0.55"/>
+  <circle cx="1124" cy="730" r="7" fill="#456078" opacity="0.55"/>
+
+  <!-- Distant acceleration trails -->
+  <path d="M154 258H430" stroke="#4a6072" stroke-width="5" opacity="0.34"/>
+  <path d="M192 642H496" stroke="#4a6072" stroke-width="5" opacity="0.28"/>
+  <path d="M126 514H384" stroke="#4a6072" stroke-width="3" opacity="0.25"/>
+
+  <!-- Amber arrows rushing toward the gate -->
+  <path d="M182 236H772V202L890 270L772 338V304H182Z" fill="#d8922f" opacity="0.78"/>
+  <path d="M286 566H858V530L982 602L858 674V638H286Z" fill="#f0aa3c" opacity="0.68"/>
+  <path d="M106 414H700V385L802 444L700 503V474H106Z" fill="#b87527" opacity="0.54"/>
+  <path d="M492 706H902V680L994 733L902 786V760H492Z" fill="#c47c28" opacity="0.42"/>
+
+  <!-- Measured pause: translucent frame and calibrated marks -->
+  <rect x="706" y="330" width="392" height="248" rx="22" fill="#8ba2b5" fill-opacity="0.10" stroke="#9eb3c3" stroke-width="4"/>
+  <rect x="728" y="352" width="348" height="204" rx="12" fill="none" stroke="#557084" stroke-width="2" stroke-dasharray="10 12" opacity="0.85"/>
+  <path d="M706 382H734 M706 430H748 M706 478H734 M706 526H748 M1070 382H1098 M1056 430H1098 M1070 478H1098 M1056 526H1098" stroke="#b5c5d1" stroke-width="3" opacity="0.72"/>
+  <path d="M786 330V354 M858 330V366 M930 330V354 M1002 330V366 M786 554V578 M858 542V578 M930 554V578 M1002 542V578" stroke="#b5c5d1" stroke-width="3" opacity="0.72"/>
+
+  <!-- The arrow held inside the frame -->
+  <path d="M352 427H884V391L1010 454L884 517V481H352Z" fill="#f2ad3f"/>
+  <path d="M352 427H704" stroke="#ffd27b" stroke-width="5" opacity="0.72"/>
+  <circle cx="706" cy="454" r="19" fill="#0c1a28" stroke="#f7c264" stroke-width="5"/>
+  <circle cx="706" cy="454" r="5" fill="#f7c264"/>
+  <path d="M706 404V379 M706 529V504" stroke="#f7c264" stroke-width="4"/>
+
+  <!-- Narrow gate and consequence field -->
+  <rect x="1218" y="166" width="38" height="568" rx="6" fill="#263b4e" stroke="#526b7f" stroke-width="3"/>
+  <rect x="1328" y="166" width="38" height="568" rx="6" fill="#263b4e" stroke="#526b7f" stroke-width="3"/>
+  <rect x="1256" y="371" width="72" height="158" fill="#101f2d" stroke="#71889a" stroke-width="3"/>
+  <path d="M1275 371V529 M1294 371V529 M1313 371V529" stroke="#425b6f" stroke-width="2"/>
+  <path d="M1366 450H1484" stroke="#b87527" stroke-width="5" opacity="0.40"/>
+  <path d="M1398 414L1462 450L1398 486Z" fill="#d8922f" opacity="0.32"/>
+
+  <!-- Deliberate uncertainty beyond the gate -->
+  <circle cx="1420" cy="280" r="46" fill="none" stroke="#3d566a" stroke-width="3" opacity="0.70"/>
+  <circle cx="1420" cy="280" r="17" fill="#1b3042"/>
+  <path d="M1388 650L1420 594L1452 650L1420 706Z" fill="none" stroke="#3d566a" stroke-width="3" opacity="0.70"/>
+</svg>
