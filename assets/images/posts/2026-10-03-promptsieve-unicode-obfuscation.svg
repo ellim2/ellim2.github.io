@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Unicode normalization review flow</title>
+  <desc id="desc">An editorial diagram showing an input line with invisible markers flowing through a normalization gate into three review signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07162e"/><stop offset="1" stop-color="#102b4b"/></linearGradient>
+    <linearGradient id="gate" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#26d6c0"/><stop offset="1" stop-color="#7ce7de"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="11" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="185" cy="162" r="220" fill="#184674" opacity=".28"/><circle cx="1430" cy="760" r="270" fill="#0e827d" opacity=".16"/>
+  <text x="120" y="136" fill="#a9bdd2" font-family="system-ui, sans-serif" font-size="25" letter-spacing="4">LOCAL REVIEW FLOW / 03</text>
+  <text x="120" y="206" fill="#f3f7fb" font-family="system-ui, sans-serif" font-size="52" font-weight="700">보이지 않는 문자도 검토 신호로</text>
+  <rect x="120" y="298" width="420" height="216" rx="24" fill="#0b213c" stroke="#365776" stroke-width="2"/>
+  <text x="158" y="350" fill="#86a5c1" font-family="system-ui, sans-serif" font-size="20" letter-spacing="2">UNTRUSTED INPUT</text>
+  <rect x="158" y="383" width="250" height="14" rx="7" fill="#d9e5ee"/><rect x="420" y="383" width="34" height="14" rx="7" fill="#f08d77"/>
+  <rect x="158" y="423" width="184" height="14" rx="7" fill="#d9e5ee" opacity=".78"/><rect x="354" y="423" width="16" height="14" rx="7" fill="#f08d77"/><rect x="382" y="423" width="85" height="14" rx="7" fill="#d9e5ee" opacity=".78"/>
+  <text x="158" y="480" fill="#ef9c87" font-family="system-ui, sans-serif" font-size="18">invisible marker</text>
+  <path d="M560 406 H704" fill="none" stroke="#6f91b0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M680 382 L714 406 L680 430" fill="none" stroke="#6f91b0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="720" y="286" width="322" height="240" rx="26" fill="url(#gate)" filter="url(#glow)"/>
+  <text x="758" y="362" fill="#06303a" font-family="system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="2">NORMALIZE</text>
+  <text x="758" y="414" fill="#06303a" font-family="system-ui, sans-serif" font-size="38" font-weight="750">NFKC +</text>
+  <text x="758" y="458" fill="#06303a" font-family="system-ui, sans-serif" font-size="28">invisible cleanup</text>
+  <path d="M1068 406 H1172" fill="none" stroke="#6f91b0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1148 382 L1182 406 L1148 430" fill="none" stroke="#6f91b0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="system-ui, sans-serif">
+    <rect x="1192" y="250" width="290" height="102" rx="18" fill="#173d5d" stroke="#4b7597" stroke-width="2"/>
+    <circle cx="1232" cy="301" r="12" fill="#f2b764"/><text x="1260" y="308" fill="#e8f2fa" font-size="24" font-weight="650">unicode_obfuscation</text>
+    <rect x="1192" y="376" width="290" height="102" rx="18" fill="#173d5d" stroke="#4b7597" stroke-width="2"/>
+    <circle cx="1232" cy="427" r="12" fill="#ef8377"/><text x="1260" y="434" fill="#e8f2fa" font-size="24" font-weight="650">role_override</text>
+    <rect x="1192" y="502" width="290" height="102" rx="18" fill="#173d5d" stroke="#4b7597" stroke-width="2"/>
+    <circle cx="1232" cy="553" r="12" fill="#ef8377"/><text x="1260" y="560" fill="#e8f2fa" font-size="24" font-weight="650">secret_request</text>
+  </g>
+  <path d="M1182 406 V301 H1192 M1182 406 V427 H1192 M1182 406 V553 H1192" fill="none" stroke="#6f91b0" stroke-width="4"/>
+  <line x1="120" y1="708" x2="1480" y2="708" stroke="#315572"/>
+  <text x="120" y="768" fill="#b9cbe0" font-family="system-ui, sans-serif" font-size="27">원문을 바꾸지 않는다 · 검토 위치만 넓힌다</text>
+  <text x="120" y="812" fill="#6f91b0" font-family="system-ui, sans-serif" font-size="19">safe output keeps rules and line numbers, not untrusted text</text>
+</svg>
